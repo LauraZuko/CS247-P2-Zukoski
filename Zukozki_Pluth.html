@@ -1,0 +1,69 @@
+<!doctype html>
+<!-- Laura Zukoski 
+	 Edward Pluth
+	 Project 2 - Adventure Game
+	 Web and Distributed Programming
+	 Fall 2015-->
+
+<html lang="en">
+	<head> 
+	<meta charset = "utf-8" />
+
+	<!-- Reference the css file for styling, and google apis for fonts
+		Displays Header info-->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bangers">
+		<link rel="stylesheet" type="text/css" href="Zukoski_Pluth.css">
+		<title> The Private i! </title>
+	</head>
+
+	<!--
+	Displays room image and description along with room items and player items.
+	-->
+	<body onload="init()">
+		<div id="header">
+			<p>Laura Zukoski | Edward Pluth <br />
+			Project 2 | Adventure Game<br />
+			Web & Distribution Programming | Fall 2015</p>
+			<h2 id="Bar"> The Private i! </h2>
+		</div>
+		<div class="image_tile" id="image_tile">
+			<img src="" alt="bar" id="theImage"/>
+			<div class="f4">
+				<div id="form4">
+					<div id="roomItems" onclick="transfer()"></div>
+						<form><label>Room Items<select><option id="roomitem">None</option></select></label></form>
+				</div>
+			</div>
+			<div class="f3">
+				<div id="form3">
+					<div id="playerInventory" onclick="dropItem()"></div>
+						<form><label>Player Inventory<select><option id="playeritem"></option></select></label></form>
+				</div>
+			</div>
+			<div class="script_area">
+				<script type="text/javaScript" src="Zukoski_Pluth.js" id ="descriptions"></script>
+			</div>
+		
+		<div id="description"></div>
+		</div>
+		
+	<!--
+	This is the input field will where the user can type commands in. And also shows the players score.
+	-->
+		<div class="input_area">
+			<div class="f1">
+				<form id="form1">
+					<label>Prompt <br /><input type="text" id="inputField" name="type your choice here" onkeypress="newCommand()"></label>
+				</form>
+			</div>
+			<div class="f2">
+				<form id="form2">
+					<label>Score: <br /><output name="playerScore" id="playerScore"></output></label>
+				</form>
+			</div>
+
+		</div> 
+
+
+	</body>
+</html>

@@ -1,0 +1,37 @@
+All the winning moves to "The Private I."
+
+start
+
+take note
+go east
+go north
+drop note
+
+go south
+go west 
+go north
+take ledger
+
+go south
+go east
+go north
+drop ledger
+
+go south 
+go east
+take key
+go west
+go north
+drop key
+
+go south
+go west
+go west
+take handkerchief
+go east
+go east
+go north
+drop handkerchief
+
+	
+	

@@ -1,0 +1,140 @@
+/* 	 Laura Zukoski 
+	 Edward Pluth
+	 Project 2 - Adventure Game
+	 Web and Distributed Programming
+	 Fall 2015
+*/
+
+/* adds background image */
+body, html {
+	height: 100%;
+	position: relative;
+	background-image: url("outside.jpg");
+}
+
+/* styles header */
+h2 {
+	color: #33ccff;
+	text-align: center;
+	font-family: "Bangers";
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+
+/* styles class info */
+p {
+	color: #c0c0c0;
+	text-align: center;
+	width:100%;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+/* sets image width and height */
+img {
+	width:400px;
+	height:300px;
+}
+#playerInventory {
+	color: #c0c0c0;
+	list-style-type: None;
+}
+
+/* sets styling for image div */
+.image_tile {
+	position: relative;
+	padding: 20px;
+	padding-bottom: 80px;
+	width: 50%;
+	text-align: center;
+	background: rgba(138,172,184,.6);
+	margin: auto;
+	border-style: solid;
+	border-color: #33ccff;
+	
+	
+}
+
+/* Adds border to header*/
+#header {
+	border-style: solid;
+	border-color: #33ccff;
+	width: 75%;
+	margin: auto;
+}
+
+/* Style the script area */
+.script_area {
+	position: relative;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	color: #c0c0c0;
+}
+
+/* styles the prompt section and score */
+.input_area {
+	text-align: center;
+	padding-top:10px;
+	width: 50%;
+	font-family: Georgia;
+	padding-left: 475px;
+}
+
+/* styles the room descriptions  */
+#description {
+	position: relative;
+	padding-bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-family: Georgia;
+}
+
+/* Styles form */
+form {
+	position: relative;
+	width: 100%;
+	float: left;
+	color: #c0c0c0;
+}
+
+/* These style the input areas: player inventory, room items, the prompt and score */
+.f1 {
+	padding: 10px;
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	float: left;
+	border-style: solid;
+	border-color: #33ccff;
+	background: rgba(138,172,184,.6);
+}
+.f2 {
+	padding: 10px;
+	width: 25%;
+	text-align: center;
+	float: right;
+	border-style: solid;
+	border-color: #33ccff;
+	background: rgba(138,172,184,.6);
+}
+.f3 {
+	padding-top: 10px;
+	width: 200px;
+	height: 100px;
+	float: right;
+	color: #c0c0c0;
+	font-family: Georgia;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.f4 {
+	padding-top: 10px;
+	width: 200px;
+	height: 100px;
+	float: right;
+}
